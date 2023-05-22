@@ -1,3 +1,13 @@
+# a function that calls upon custom written T tests and one way ANOVA
+# the user can define which test needs to be performed and specify other metrics like the alternative hypothesis or the significance level
+# there are 5 custom functions
+#   - one sample T test
+#   - two sample unpaired T test
+#   - two sample paired T test
+#   - one way ANOVA
+#   - a wrapper function
+# QBA LIU, Jakub Prorok 2023 ---------------------------------------------------------------------------------------------------------------------------------
+
 # one sample t_test
 one_sample_t_test <- function(sample, mu0, alternative){
   
