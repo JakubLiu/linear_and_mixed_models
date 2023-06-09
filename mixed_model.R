@@ -1,4 +1,4 @@
-# this is a simplified mixed model that is simpler, because of the following assumptions:
+# this is a simplified mixed model, that is simpler because of the following assumptions:
 
 #   1.) the variance of each element in the random effect vector is set to 1
 #   2.) the covariance between any two elements of the random effect vector is set to 0
