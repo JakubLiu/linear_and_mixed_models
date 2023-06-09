@@ -29,7 +29,7 @@ mixed_model <- function(outcome, fixed_effect, additive_gen_var, resid_var){
   # creating covariance matrix
   A <- diag(length(outcome))
   
-  # solvign mixed model equation
+  # solving mixed model equation
   upper_left <- t(X)%*%X
   lower_left <- t(Z)%*%X
   upper_right <- t(X)%*%Z
