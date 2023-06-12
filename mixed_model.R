@@ -6,6 +6,7 @@
 #   * because of assumptions 1. and 2. the covariance matrix has 1 on it's main diagonal
 #   3.) the 'n-th' element of the outcome (y) vector corresponds to the 'n-th' element in the random effects vector
 #   * because of assumption 3. the random effects incidence matrix is an identity matrix
+# QBA LIU, Jakub Prorok 2023 ---------------------------------------------------------------------------------------------------------------
 
 
 # 1. creating input data ---------------------------------------------------------------------------------------------------------------
